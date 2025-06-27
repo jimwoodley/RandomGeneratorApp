@@ -122,7 +122,7 @@ class _DecisionPageState extends State<DecisionPage> {
         .fadeIn(duration: 1000.ms);
   }
 
-  textToString(Text t) {
+  String? textToString(Text t) {
     var value = t.data;
     return value;
   }
