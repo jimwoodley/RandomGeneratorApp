@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 
 // ignore: must_be_immutable
-// temp
 class DecisionItem extends StatelessWidget {
   final String optionText;
   Function(BuildContext)? deleteFunction;
